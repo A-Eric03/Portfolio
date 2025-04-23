@@ -1,7 +1,8 @@
 # Portfolio
 Afin de témoigner de ma motivation et de permettre au recruteur de voir un aperçu de qui je suis j'ai décider de faire un portfolio assez design 
-
 Mon nom de domain : https://ericanebajagan.com
+
+BUT : Faire une site Portfolio totalement sécurisé (pas de Wget, Curl, BrutForce, ect) 
 
 POUR LA SECURISATION :
 1. reCAPTCHA de Google (recommandé)
@@ -33,5 +34,6 @@ Et dans verif.php, tu vérifies la réponse avec la clé secrète.
 - Journalisation des connexions et erreurs suspectes
 - Scan de vulnérabilités automatisé (ex. : OWASP ZAP) Avec nikito, Wappalyzer
 - Google Analytics afin d'obtenir les statistiques
+- Faire rapport de sécurité avec les tests réalisés ect..
 
-- BUT : Faire une site Portfolio totalement sécurisé (pas de Wget, Curl, BrutForce, ect) 
+
