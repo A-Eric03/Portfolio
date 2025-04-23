@@ -22,6 +22,16 @@ Tu ajoutes le script dans ton HTML :
   <input type="submit" value="Accéder au site">
 </form>
 
-
-
 Et dans verif.php, tu vérifies la réponse avec la clé secrète.
+
+- Authentification sécurisée (bcrypt, reCAPTCHA, 2FA possible)
+- Protection contre les injections SQL / XSS / CSRF
+- Vérification des fichiers uploadés (type, taille, extensions)
+- HTTPS avec certificat SSL
+- Gestion des sessions et cookies sécurisés
+- Rate limiting / protection brute-force sur l’accès admin
+- Journalisation des connexions et erreurs suspectes
+- Scan de vulnérabilités automatisé (ex. : OWASP ZAP) Avec nikito, Wappalyzer
+- Google Analytics afin d'obtenir les statistiques
+
+- BUT : Faire une site Portfolio totalement sécurisé (pas de Wget, Curl, BrutForce, ect) 
